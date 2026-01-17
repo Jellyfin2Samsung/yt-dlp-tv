@@ -15,7 +15,7 @@ A lightweight Docker service that enables YouTube playback on Samsung TVs by con
 |----------|--------|-------------|
 | `/file` | POST | Downloads and merges video into a TV-safe MP4, served from `/media/<id>.mp4` |
 | `/stream` | POST | Returns a temporary direct MP4 URL (with expiration) |
-| `health` | GET | Returns a health status  |
+| `/health` | GET | Returns a health status  |
 
 ## 🐳 Installation (Docker)
 
